@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santa's Shortest Path - Banana Island</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Santa's Shortest Path Finder</h1>
+      <p>Help Santa find the fastest route to visit every child in Banana Island, Lagos State</p>
+    </header>
+    
+    <main>
+      <div class="map-container">
+        <canvas id="pathCanvas" width="600" height="400"></canvas>
+      </div>
+      
+      <div class="controls">
+        <button id="generateBtn">Generate New Houses</button>
+        <button id="findPathBtn">Find Shortest Path</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+      
+      <div class="info">
+        <div class="stat">
+          <span class="label">Houses:</span>
+          <span id="houseCount">0</span>
+        </div>
+        <div class="stat">
+          <span class="label">Total Distance:</span>
+          <span id="totalDistance">-</span>
+        </div>
+        <div class="stat">
+          <span class="label">Algorithm:</span>
+          <span>Nearest Neighbor TSP</span>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+      <p>Merry Christmas from Banana Island!</p>
+    </footer>
+  </div>
+  
+  <script src="algorithm.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
