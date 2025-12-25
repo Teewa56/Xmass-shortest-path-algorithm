@@ -20,7 +20,7 @@ An algorithm for Santa to find the fastest and shortest way to visit every child
 - Overall: Practical for hundreds of houses in Banana Island!
 
 **🍪 Special Notes:**
-- All three implementations use Euclidean distance (can upgrade to Haversine for real GPS coords)
+- All three implementations use Euclidean distance
 - Sample data uses approximate Banana Island, Lagos coordinates
 - Each includes festive console output with emojis!
 
